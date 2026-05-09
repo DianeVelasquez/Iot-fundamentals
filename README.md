@@ -30,6 +30,8 @@ The repository includes basic web integrations, Arduino Uno implementations, ele
 |- Documentation/        # Practice reports and documentation
 |- README.md
 
+```
+
 ## 🚀 Learning Objectives
 
 The goal of this repository is to:
