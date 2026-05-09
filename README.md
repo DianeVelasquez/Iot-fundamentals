@@ -55,5 +55,5 @@ Web integration with hardware
 
 ## ✍️ Author
 
-Dayana Velasquez
+Dayana Velasquez ~
 Systems Engineering Student | AI & Software Development
