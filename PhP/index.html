@@ -1,0 +1,113 @@
+<!-- Archivo mejorado Taller PHP -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller PHP</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(135deg, #c6d7e7, #d8c7ff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header img {
+      width: 65%;
+      border-radius: 18px;
+      margin-top: 20px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      background: #ffffffc9;
+      backdrop-filter: blur(6px);
+      padding: 25px;
+      margin-top: 30px;
+      border-radius: 18px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #3d246b;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    select, input[type="submit"] {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #8c77c3;
+      font-size: 1rem;
+    }
+
+    input[type="submit"] {
+      background: #6f46c3;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      background: #4d2f8b;
+    }
+
+    .img-section {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .img-section img {
+      width: 60%;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Imagenes/portadita.gif" alt="Header" />
+  </header>
+
+  <div class="container">
+    <p class="titulo">Ejercicios de programación con PHP</p>
+
+    <form action="mim.php" method="post">
+      <label for="opcion0">Selecciona el ejercicio a resolver:</label>
+      <select name="opcion0" id="opcion0">
+        <option>1 Calculadora de edad</option>
+        <option>2 Clasificación de Promedio Académico</option>
+        <option>3 Conversor de Moneda</option>
+        <option>4 Cálculo de Descuento</option>
+        <option>5 Verificador Número primo</option>
+      </select>
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <div class="img-section">
+      <img src="Imagenes/1 al 10.gif" alt="Ejercicios" />
+    </div>
+  </div>
+</body>
+</html>
